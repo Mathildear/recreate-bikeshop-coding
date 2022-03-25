@@ -7,7 +7,7 @@ function init() {
 
 async function loadData() {
   const response = await fetch(
-    "http://mdesign.dk/recreate-bikeshop/wp-json/wp/v2/bike?_embed"
+    "https://mdesign.dk/recreate-bikeshop/wp-json/wp/v2/bike?_embed"
   );
   //   console.log(response);
   const bikeData = await response.json();
